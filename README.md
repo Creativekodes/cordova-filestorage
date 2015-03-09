@@ -5,6 +5,12 @@ by [Christian Cook](http://twitter.com/cookie_cookson)
 
 Cordova File Storage is a JavaScript library which mimics the functionality of HTML5 Local Storage but avoids storage-based limits of the browser. As the File API is asynchronous the response is returned in a callback function upon completion. The data is stored as JSON files inside your App's binary, allowing you to store large arrays with minimal effort. If on a Desktop browser, the data will be stored within the Persistent Storage; this makes it useful for Desktop development and testing. If Persistent Storage is not supported, the library will fall back to Local Storage.
 
+## Installation
+```
+cordova plugin add org.apache.cordova.file
+```
+This library requires the Cordova File plugin to operate. Also copy across filestorage.js to your www directory and get started!
+
 ## Usage
 
 ```
